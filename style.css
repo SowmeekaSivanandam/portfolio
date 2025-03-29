@@ -1,0 +1,43 @@
+/* Custom styles for the portfolio website */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Ensure it stays above other elements */
+    background-color: white; /* Ensure the background is visible */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+body {
+    padding-top: 4rem; /* Adjust for the height of the fixed navigation bar */
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #4A5568; /* Gray-800 */
+}
+
+a {
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #5A67D8; /* Indigo-600 */
+}
+
+section {
+    padding: 4rem 0;
+    position: relative;
+    margin: auto;
+    padding-left: 80%;
+}
+
+footer {
+    background-color: #2D3748; /* Gray-800 */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
